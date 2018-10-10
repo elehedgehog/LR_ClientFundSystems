@@ -1,0 +1,97 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+
+html,
+body {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1400px;
+    height: 100%;
+}
+
+p{
+    white-space: normal;
+}
+
+.history_conIn{
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.cf:after,
+.cf:before {
+    content: '';
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+input,
+button {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 0;
+    outline: none;
+}
+
+ul {
+    li {
+        list-style: none;
+    }
+}
+
+
+
+
+
+.scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar::-webkit-scrollbar-thumb {
+  background: #B4B6BF;
+  border-radius: 3px;
+}
+
+
+.scrollbar{
+    scrollbar-arrow-color: #B4B6BF;
+    /*滚动条滑块按钮的颜色*/
+    scrollbar-face-color: #B4B6BF;
+    /*滚动条整体颜色*/
+    scrollbar-highlight-color: #B4B6BF;
+    /*滚动条阴影*/
+    scrollbar-shadow-color: #ccc;
+    /*滚动条轨道颜色*/
+    scrollbar-track-color: #fff;
+}
+input::-webkit-input-placeholder{
+  color: #999;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+color: #999;
+}
+input:-o-placeholder{    /* Mozilla Firefox 4 to 18 */
+color: #999;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+color: #999;
+}
+
+
+
+
+
+

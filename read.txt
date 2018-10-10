@@ -1,0 +1,26 @@
+乐宝袋后台管理系统
+
+Login  登录页面
+
+CommonHeader 顶部
+
+LeftNav 左侧导航
+
+HomePage：
+
+AgencyHomePage  机构首页
+
+OrderInquiry 订单查询
+
+ConsumeRecord 充值记录
+RechargeRecord 效果记录
+
+AgencyList  机构列表
+
+PushData  联登机构推单数据
+
+AccountList  账户列表
+ConfigAuthority  配置权限
+
+
+
